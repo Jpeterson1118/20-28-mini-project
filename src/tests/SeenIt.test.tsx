@@ -7,6 +7,7 @@ describe('SeenIt', () => {
     // Render the component
     render(<SeenIt/>);
 
+    // test
     // TODO: emptyMessage is a class, not an id. This test should fail our actions
     // TODO: After confirming the actions work as expected, change the querySelector back to a class and commit the changes. Then confirm the actions allow the pull requests
     const SeenItContainer = document.querySelector('#emptyMessage') as HTMLHeadingElement;
